@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#fff6f5" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <meta
+      name="description"
+      content="A little collection of heartfelt notes for Afsana Ma’am, from Textile-50 (B)."
+    />
+    <title>A little note for you — Textile-50 (B)</title>
+    <link rel="preconnect" href="https://i.imgur.com" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="ambient" aria-hidden="true">
+      <span class="glow glow-one"></span>
+      <span class="glow glow-two"></span>
+      <span class="glow glow-three"></span>
+      <div class="petals" id="petals"></div>
+    </div>
+
+    <main class="site-shell">
+      <section class="screen intro-screen is-active" id="intro" aria-labelledby="intro-title">
+        <div class="intro-card">
+          <p class="eyebrow">A little something, with love</p>
+          <p class="intro-copy">FROM YOUR BELOVED</p>
+          <h1 id="intro-title">TEXTILE-50 <span>(B)</span></h1>
+          <p class="intro-copy intro-last">STUDENTS</p>
+          <div class="rule" aria-hidden="true"><span></span></div>
+          <p class="designer">Designed by Kiram (328)</p>
+          <button class="button button-primary" id="see-button" type="button">
+            See <span aria-hidden="true">→</span>
+          </button>
+          <p class="intro-note">A small keepsake for the end of a lovely class.</p>
+        </div>
+      </section>
+
+      <section class="screen gift-screen" id="gift-screen" aria-labelledby="gift-title" aria-hidden="true" inert>
+        <div class="gift-card">
+          <p class="eyebrow">One little surprise</p>
+          <h2 id="gift-title">There’s a little love inside</h2>
+          <p class="gift-hint">Tap the gift when you’re ready</p>
+          <button class="gift-button" id="gift-button" type="button" aria-label="Open your gift">
+            <span class="gift-aura" aria-hidden="true"></span>
+            <span class="gift-bow" aria-hidden="true"><i></i><b></b></span>
+            <span class="gift-lid" aria-hidden="true"><i></i></span>
+            <span class="gift-box" aria-hidden="true"><i></i></span>
+            <span class="gift-sparkle sparkle-one" aria-hidden="true">✦</span>
+            <span class="gift-sparkle sparkle-two" aria-hidden="true">✧</span>
+            <span class="gift-sparkle sparkle-three" aria-hidden="true">♡</span>
+          </button>
+          <p class="gift-caption">Made with all our little notes</p>
+        </div>
+      </section>
+
+      <section class="screen message-screen" id="message-screen" aria-labelledby="message-name" aria-hidden="true" inert>
+        <div class="message-stage">
+          <header class="message-header">
+            <p class="eyebrow">A few words from the heart</p>
+            <div class="progress-track" aria-hidden="true"><span id="progress-bar"></span></div>
+            <p class="progress-label" id="progress-label"></p>
+          </header>
+          <div class="message-card" id="message-card" aria-live="polite" aria-atomic="true">
+            <div class="student-profile">
+              <div class="avatar" id="avatar"></div>
+              <div class="student-details">
+                <div class="name-line">
+                  <h2 id="message-name"></h2>
+                  <span class="role-tag cr-tag" id="cr-tag" hidden>CR</span>
+                  <span class="role-tag sr-tag" id="sr-tag" hidden>SR</span>
+                </div>
+                <p class="student-id" id="message-id"></p>
+              </div>
+            </div>
+            <div class="message-divider" aria-hidden="true"><span>♡</span></div>
+            <p class="message-text" id="message-text"></p>
+          </div>
+          <nav class="message-controls" aria-label="Message navigation">
+            <button class="nav-button" id="previous-button" type="button" aria-label="Previous message">
+              <span aria-hidden="true">←</span><span class="button-label">Previous</span>
+            </button>
+            <p class="swipe-hint"><span aria-hidden="true">↔</span> Swipe to turn the page</p>
+            <button class="nav-button next-button" id="next-button" type="button" aria-label="Next message">
+              <span class="button-label">Next</span><span aria-hidden="true">→</span>
+            </button>
+          </nav>
+        </div>
+      </section>
+
+      <section class="screen ending-screen" id="ending-screen" aria-labelledby="ending-title" aria-hidden="true" inert>
+        <div class="ending-card">
+          <div class="ending-flower" aria-hidden="true">✿</div>
+          <p class="eyebrow">For Afsana Ma’am, with honor</p>
+          <h2 id="ending-title">ENDING WITH LOVE & RESPECT</h2>
+          <div class="rule" aria-hidden="true"><span></span></div>
+          <p class="ending-message">BUT, THESE HEARTS WILL ALWAYS SCREAM FOR YOU.</p>
+          <p class="ending-respect">AL-BIDA!</p>
+          <button class="button button-soft" id="revisit-button" type="button">Read the messages again <span aria-hidden="true">↺</span></button>
+        </div>
+      </section>
+    </main>
+
+    <div class="burst-layer" id="burst-layer" aria-hidden="true"></div>
+    <div class="sr-only" id="announcement" aria-live="polite" aria-atomic="true"></div>
+  </body>
+</html>
