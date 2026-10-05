@@ -87,13 +87,13 @@ const messages = [
     name: 'Shamayel Shahir Khan',
     id: '00724214121298',
     image: 'https://i.imgur.com/3ydJWGq.jpeg',
-    text: 'Ma'am this is the only class that I would enjoy and attend without any reluctance. Ma’am, it was truly a pleasure being your student. Your classes were not only informative but also genuinely enjoyable. The way you taught made us feel the subject more alive and memorable. Thank you for making our classes such a wonderful experience. We’ll always remember you and your classes with great fondness. Wishing you all the very best, Ma’am!',
+    text: 'Ma\'am this is the only class that I would enjoy and attend without any reluctance. Ma’am, it was truly a pleasure being your student. Your classes were not only informative but also genuinely enjoyable. The way you taught made us feel the subject more alive and memorable. Thank you for making our classes such a wonderful experience. We’ll always remember you and your classes with great fondness. Wishing you all the very best, Ma’am!',
   },
   {
     name: 'Samiul Jaman Sami',
     id: '00724214121298',
     image: 'https://i.imgur.com/4BCHi02.jpeg',
-    text: 'Dear Mam,
+    text: `Dear Mam,
 
 It’s honestly hard to believe that the semester is already over. I still remember how our journey started, and funny enough, one of my first memories with you is getting caught using my mobile during a quiz. 😂
 
@@ -111,7 +111,7 @@ Take care, Mam. And thank you for everything. ❤️
 
 — Sami
   
-[AI detected in this text -- 79%]',
+[AI detected in this text -- 79%]`,
   },
   {
     name: 'KIRAM AHMED KHAN',
@@ -498,9 +498,15 @@ function previousMessage() {
 }
 
 document.getElementById('see-button').addEventListener('click', () => {
-  playSeeSound();
-  startAmbientSoundtrack();
   showScreen(giftScreen);
+
+  // Navigation should still work if the browser blocks or lacks Web Audio.
+  try {
+    playSeeSound();
+    startAmbientSoundtrack();
+  } catch {
+    // Sound is optional; the gift screen is already visible.
+  }
 });
 giftButton.addEventListener('click', openGift);
 document.getElementById('previous-button').addEventListener('click', () => {
