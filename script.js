@@ -84,6 +84,36 @@ const messages = [
     text: 'Dear Afsana Ma’am,\nThank you so much for an amazing semester! The way you taught history was absolutely brilliant and made the subject so engaging. You explained everything so beautifully that you easily became my favorite teacher this semester.\n\nI will genuinely miss your classes and your wonderful teaching style. Wishing you all the very best for your future!\n\nBest regards,\nIstiyak Ahmed Rakib',
   },
   {
+    name: 'Shamayel Shahir Khan',
+    id: '00724214121298',
+    image: 'https://i.imgur.com/3ydJWGq.jpeg',
+    text: 'Ma'am this is the only class that I would enjoy and attend without any reluctance. Ma’am, it was truly a pleasure being your student. Your classes were not only informative but also genuinely enjoyable. The way you taught made us feel the subject more alive and memorable. Thank you for making our classes such a wonderful experience. We’ll always remember you and your classes with great fondness. Wishing you all the very best, Ma’am!',
+  },
+  {
+    name: 'Samiul Jaman Sami',
+    id: '00724214121298',
+    image: 'https://i.imgur.com/4BCHi02.jpeg',
+    text: 'Dear Mam,
+
+It’s honestly hard to believe that the semester is already over. I still remember how our journey started, and funny enough, one of my first memories with you is getting caught using my mobile during a quiz. 😂
+
+At first, I won’t lie, I was a little upset with you for that. But now, when I look back, I’m actually grateful for that moment. Because that was my first and, thankfully, my last time getting caught using my mobile during a quiz. So I guess you taught me a lesson that I’ll remember for a long time. 😂
+
+Apart from all the teasing, getting caught, and you asking me questions almost every day, I genuinely had a really good semester with you. I’ll especially miss the way you used to come to class and ask about me every day. And of course, I’ll miss being randomly picked to answer questions when I least expected it. 😭
+
+I know I have annoyed you quite a lot in class, and I’m really sorry for that. Especially for all the times I used my mobile in class—sorry, Mam. Please forgive me for all my mischief. 🥲
+
+Thank you for all the memories, patience, and for making the semester so memorable. I’ll genuinely miss having you as my faculty and seeing you in class.
+
+Wishing you nothing but the very best for the days ahead. I hope you stay happy, healthy, and keep inspiring students the way you always do.
+
+Take care, Mam. And thank you for everything. ❤️
+
+— Sami
+  
+[AI detected in this text -- 79%]',
+  },
+  {
     name: 'KIRAM AHMED KHAN',
     id: '00724214121328',
     image: 'https://i.imgur.com/4Pl5gDN.jpeg',
